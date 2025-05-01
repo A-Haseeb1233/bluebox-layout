@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS';
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.al-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    .col-1{
+       width: 8.33%;
+       margin: 0 auto; 
+    }
+    .col-2{
+        width: 16.66%;
+        margin: 0 auto;
+    }
+    .col-3{
+        width: 25%;
+        margin: 0 auto;
+    }
+    .col-4{
+        width:33.33%;
+        margin: 0 auto;
+    }
+    .col-5{
+        width: 41.66%;
+        margin: 0 auto;
+    }
+    .col-6{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .col-7{
+        width: 58.33%;
+        margin: 0 auto;
+    }
+    .col-8{
+        width: 66.66%;
+        margin: 0 auto;
+    }
+    .col-9{
+        width: 75%;
+        margin: 0 auto;
+    }
+    .col-10{
+        width: 83.33%;
+        margin: 0 auto;
+    }
+    .col-11{
+        width: 91.66%;
+        margin: 0 auto;
+    }
+    .col-12{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+header{
+    .menu{
+        .menu-logo{
+            display: flex;
+            justify-content: start;
+            max-width: 150px;
+            img{
+                width: 100%;
+            }
+        }
+        .menu-btns{
+            ul{
+                display: flex;
+                li{
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        padding: 0px 20px;
+                    }
+                }
+            }
+        }
+        .menu-info{
+            display: flex;
+            justify-content: end;
+            h4{
+                color: grey;
+            }
+        }
+    }
+}
+
+footer{
+    .last{
+        background-color: rgb(34, 34, 117);
+        color: white;
+        padding-top: 30px;
+        .last1{
+            h3{
+                padding-bottom: 10px;
+            }
+            hr{
+                margin-bottom: 10px;
+                width: 120px;
+            }
+            P{
+                line-height: 22px;
+            }
+            h4{
+                font-weight: bolder;
+                padding-top: 20px;
+            }
+        }
+        .lastt{
+            text-align: center;
+            img{
+                width: 60px;
+                height: 50px;
+            }
+        }
+    }
+}

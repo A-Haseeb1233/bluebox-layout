@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS";
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.al-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row .col-1 {
+  width: 8.33%;
+  margin: 0 auto;
+}
+.row .col-2 {
+  width: 16.66%;
+  margin: 0 auto;
+}
+.row .col-3 {
+  width: 25%;
+  margin: 0 auto;
+}
+.row .col-4 {
+  width: 33.33%;
+  margin: 0 auto;
+}
+.row .col-5 {
+  width: 41.66%;
+  margin: 0 auto;
+}
+.row .col-6 {
+  width: 50%;
+  margin: 0 auto;
+}
+.row .col-7 {
+  width: 58.33%;
+  margin: 0 auto;
+}
+.row .col-8 {
+  width: 66.66%;
+  margin: 0 auto;
+}
+.row .col-9 {
+  width: 75%;
+  margin: 0 auto;
+}
+.row .col-10 {
+  width: 83.33%;
+  margin: 0 auto;
+}
+.row .col-11 {
+  width: 91.66%;
+  margin: 0 auto;
+}
+.row .col-12 {
+  width: 100%;
+  margin: 0 auto;
+}
+
+header .menu .menu-logo {
+  display: flex;
+  justify-content: start;
+  max-width: 150px;
+}
+header .menu .menu-logo img {
+  width: 100%;
+}
+header .menu .menu-btns ul {
+  display: flex;
+}
+header .menu .menu-btns ul li {
+  list-style: none;
+}
+header .menu .menu-btns ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 0px 20px;
+}
+header .menu .menu-info {
+  display: flex;
+  justify-content: end;
+}
+header .menu .menu-info h4 {
+  color: grey;
+}
+
+footer .last {
+  background-color: rgb(34, 34, 117);
+  color: white;
+  padding-top: 30px;
+}
+footer .last .last1 h3 {
+  padding-bottom: 10px;
+}
+footer .last .last1 hr {
+  margin-bottom: 10px;
+  width: 120px;
+}
+footer .last .last1 P {
+  line-height: 22px;
+}
+footer .last .last1 h4 {
+  font-weight: bolder;
+  padding-top: 20px;
+}
+footer .last .lastt {
+  text-align: center;
+}
+footer .last .lastt img {
+  width: 60px;
+  height: 50px;
+}/*# sourceMappingURL=common.css.map */
