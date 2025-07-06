@@ -2,4 +2,4 @@
 <br>
 ### site is live at
 <br>
-https://a-haseeb1233.github.io/bluebox-layout/
+[view live at](https://a-haseeb1233.github.io/bluebox-layout/)
